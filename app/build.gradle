@@ -24,6 +24,18 @@ android {
         }
     }
 
+    flavorDimensions "default"
+    productFlavors{
+        free{
+            applicationId "br.com.milton.freeapp"
+            buildConfigField("String", "BASE_URL", "\"http://www.freeapp.com\"")
+        }
+
+        paid{
+            applicationId "br.com.milton.paidapp"
+            buildConfigField("String", "BASE_URL", "\"http://www.paidapp.com\"")
+        }
+    }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

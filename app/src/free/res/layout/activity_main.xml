@@ -40,28 +40,4 @@
         android:layout_marginTop="10dp"
         android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/txtFour"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:text="Opção 4"
-        android:textSize="30sp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold" />
-
-
-    <Button
-        android:id="@+id/txtFive"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:text="Opção 5"
-        android:textSize="30sp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold" />
-
-
 </LinearLayout>
