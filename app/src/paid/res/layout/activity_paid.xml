@@ -11,7 +11,7 @@
         android:id="@+id/txtOne"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="Opção 1"
+        android:text="@string/opcao_free_1"
         android:textSize="30sp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
@@ -22,22 +22,10 @@
         android:id="@+id/txtTwo"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="Opção 2"
+        android:text="@string/opcao_free_1"
         android:textSize="30sp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginTop="10dp"
         android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/txtTree"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:text="Opção 3"
-        android:textSize="30sp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold" />
-
 </LinearLayout>
