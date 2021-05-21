@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">build_variants_tests</string>
+    <string name="app_name">dev</string>
+
+
+    <string name="btnOne">Botão 1</string>
+    <string name="btnTwo">Botão 2</string>
+    <string name="btnTree">Somente premium</string>
+
+    <string name="clickOne">Você clicou no botão 1</string>
+    <string name="clickTwo">Você clicou no botão 2</string>
+    <string name="clickTree">Você clicou no botão masterPika</string>
 </resources>

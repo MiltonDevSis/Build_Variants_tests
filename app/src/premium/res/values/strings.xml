@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">masterChef</string>
+
+    <string name="btnOne">outro botão 1</string>
+    <string name="btnTwo">outro botão 2</string>
+    <string name="btnTree">somente premium</string>
+
+    <string name="clickOne">Você clicou no botão 1</string>
+    <string name="clickTwo">Você clicou no botão 2</string>
+    <string name="clickTree">Você clicou no botão premium master</string>
+</resources>

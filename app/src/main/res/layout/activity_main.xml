@@ -5,13 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/azul"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/txtOne"
+        android:id="@+id/btnOne"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="Opção 1"
+        android:text="@string/btnOne"
+        android:textSize="30sp"
+        android:background="@color/vermelho"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnTwo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/btnTwo"
+        android:background="@color/vermelho"
         android:textSize="30sp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
@@ -19,49 +33,13 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/txtTwo"
+        android:id="@+id/btnTree"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="Opção 2"
-        android:textSize="30sp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginTop="10dp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/txtTree"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:text="Opção 3"
-        android:textSize="30sp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/txtFour"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:text="Opção 4"
-        android:textSize="30sp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold" />
-
-
-    <Button
-        android:id="@+id/txtFive"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:text="Opção 5"
-        android:textSize="30sp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold" />
-
+        android:textStyle="bold"
+        android:visibility="invisible"/>
 
 </LinearLayout>

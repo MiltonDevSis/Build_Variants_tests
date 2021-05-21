@@ -26,20 +26,20 @@ android {
 
     flavorDimensions "default"
     productFlavors{
-        free{
+        dev{
             dimension "default"
-            applicationId "br.com.milton.freeapp"
-            manifestPlaceholders variants : 'Free'
-            applicationIdSuffix ".free"
-            buildConfigField("String", "BASE_URL", "\"http://www.freeapp.com\"")
+            applicationId "br.com.milton.dev"
+            manifestPlaceholders variants: 'dev'
+            applicationIdSuffix ".dev"
+            buildConfigField("String", "BASE_URL", "\"http://www.seiladev.com\"")
         }
 
-        paid{
+        premium{
             dimension "default"
-            applicationId "br.com.milton.paidapp"
-            manifestPlaceholders variants: 'Paid'
-            applicationIdSuffix ".paid"
-            buildConfigField("String", "BASE_URL", "\"http://www.paidapp.com\"")
+            applicationId "br.com.milton.premiumapp"
+            manifestPlaceholders variants: 'premium'
+            applicationIdSuffix ".premium"
+            buildConfigField("String", "BASE_URL", "\"http://www.premiumapp.com\"")
         }
     }
 
@@ -58,4 +58,5 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.3.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }

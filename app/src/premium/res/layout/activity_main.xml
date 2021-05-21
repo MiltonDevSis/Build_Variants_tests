@@ -5,13 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/azul"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/txtOne"
+        android:id="@+id/btnOne"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="@string/opcao_free_1"
+        android:text="@string/btnOne"
+        android:textSize="30sp"
+        android:background="@color/vermelho"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnTwo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/btnTwo"
+        android:background="@color/vermelho"
         android:textSize="30sp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
@@ -19,13 +33,15 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/txtTwo"
+        android:id="@+id/btnTree"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="@string/opcao_free_1"
+        android:text="@string/btnTree"
+        android:background="@color/vermelho"
         android:textSize="30sp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginTop="10dp"
         android:textStyle="bold" />
+
 </LinearLayout>
