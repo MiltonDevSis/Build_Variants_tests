@@ -5,9 +5,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_normal_24"
         android:label="App ${variants}"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_normal_24"
         android:supportsRtl="true"
         android:theme="@style/Theme.Build_variants_tests">
         <activity
